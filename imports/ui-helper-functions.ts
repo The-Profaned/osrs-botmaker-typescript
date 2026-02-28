@@ -461,6 +461,7 @@ export function createPanel(
 			if (layoutOptions?.flowLayout) {
 				panel.setLayout(
 					new java.awt.FlowLayout(
+						java.awt.FlowLayout.LEFT,
 						layoutOptions.flowLayout.horizontalGap ?? 0,
 						layoutOptions.flowLayout.verticalGap ?? 0,
 					),

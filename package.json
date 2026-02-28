@@ -53,6 +53,7 @@
 	},
 	"dependencies": {
 		"@deafwave/osrs-botmaker-config-manager": "^0.2.9",
-		"@deafwave/osrs-botmaker-types": "^0.8.4"
+		"@deafwave/osrs-botmaker-types": "^0.8.4",
+		"imports": "link:..\\imports"
 	}
 }

@@ -19,9 +19,12 @@
 		"module": "NodeNext",
 		"moduleResolution": "NodeNext",
 		"outDir": "./dist",
-		"types": [],
+		"types": ["@deafwave/osrs-botmaker-types"],
 		"plugins": []
 	},
 	"include": ["src/**/*.ts"],
-	"exclude": ["node_modules", "tmp"]
+	"exclude": ["node_modules", "tmp"],
+	"dependencies": {
+		"imports": "file:../imports"
+	}
 }

@@ -14,6 +14,9 @@ importers:
       '@deafwave/osrs-botmaker-types':
         specifier: ^0.8.4
         version: 0.8.4
+      imports:
+        specifier: link:..\imports
+        version: link:../imports
     devDependencies:
       '@babel/preset-env':
         specifier: ^7.24.6
